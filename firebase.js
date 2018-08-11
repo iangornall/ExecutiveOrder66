@@ -1,10 +1,10 @@
 // Initialize Firebase
 var config = {
   apiKey: firebaseAPIKey,
-  authDomain: "legionofdoom-" + firebaseIdentifier + ".firebaseapp.com",
-  databaseURL: "https://legionofdoom-" + firebaseIdentifier + ".firebaseio.com",
-  projectId: "legionofdoom-" + firebaseIdentifier,
-  storageBucket: "legionofdoom-" + firebaseIdentifier + ".appspot.com",
+  authDomain: "legion-of-doom-" + firebaseIdentifier + ".firebaseapp.com",
+  databaseURL: "https://legion-of-doom-" + firebaseIdentifier + ".firebaseio.com",
+  projectId: "legion-of-doom-" + firebaseIdentifier,
+  storageBucket: "legion-of-doom-" + firebaseIdentifier + ".appspot.com",
   messagingSenderId: "179515365777"
   };
 

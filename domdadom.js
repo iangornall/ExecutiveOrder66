@@ -102,7 +102,7 @@ var populatePosts = function(postList, start, numPosts) {
                             author: myAuthor.value,
                             placeType: myPlaceType.value,
                             placeExperience: myExperience.value,
-                            placeRating: ratingValue,
+                            placeRating: Number(ratingValue),
                             placeImageURL: post.placeImageURL,
                             dateTime: post.dateTime
                         };
@@ -158,7 +158,7 @@ var newPost = function(event) {
                 author: myAuthor.value,
                 placeType: myPlaceType.value,
                 placeExperience: myExperience.value,
-                placeRating: ratingValue,
+                placeRating: Number(ratingValue),
                 placeImageURL: url,
                 dateTime: timestamp
                 };
