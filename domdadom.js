@@ -95,9 +95,8 @@ var populatePosts = function(postList, start, numPosts) {
                     var firebaseuser = firebase.auth().currentUser;
                     if (firebaseuser) {
                         toggleModal(event);
-                        displayFlashMessage('You have successfully created a new post.');
                         var newPostData = {
-                            placeName: myPlace.value,
+                            placeNameq: myPlace.value,
                             placeOwner: firebaseuser.uid,
                             author: myAuthor.value,
                             placeType: myPlaceType.value,

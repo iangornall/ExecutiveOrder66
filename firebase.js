@@ -26,14 +26,26 @@ var savePost = function(postData) {
   console.log('saving post: ' + postData.placeName);
   var myPostKey = firebase.database().ref().child('posts').push().key;
   postData.postKey = myPostKey;
-  firebase.database().ref('posts/' + myPostKey).set(postData);
+  firebase.database().ref('posts/' + myPostKey).set(postData, error => {
+    if (error) {
+      displayFlashMessage("Your post failed. " + error + " Please try again.");
+    } else {
+      displayFlashMessage("You have successfully created a new post!");
+    }
+  });
   var myForm = document.querySelector(".newpost");
   myForm.reset();
   loadPosts();
 }
 
 var editPost = function(myPostKey, postData) {
-  firebase.database().ref('posts/' + myPostKey).set(postData);
+  firebase.database().ref('posts/' + myPostKey).set(postData, error => {
+    if (error) {
+      displayFlashMessage("Your edit failed. " + error + "Please try again.");
+    } else {
+      displayFlashMessage("You have successfully edited your post!");
+    }
+  });
   loadPosts();
 }
 
