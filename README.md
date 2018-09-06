@@ -25,13 +25,44 @@ This is a GROUP collaboration with:
 
 This project requires Firebase Realtime Database, Firebase Auth, and google maps/search API keys. If you wish to run it, put your keys in keys.js and go to town!  (see what I did there? Cause it's about Atlanta)
 
+### Features
+
+#### User Authentication with Firebase
+![Signup animation](./readme/signup.gif)
+
+Users can sign up, log in, and log out.  Logged in users can post, edit posts, and delete posts (see below).
+
+#### Post New Gems
+![Post animation](./readme/post.gif)
+
+Users can make new posts by entering a location name, rating, and description.  Images of the location are fetched by Google's custom search API.  Maps are fetched from Google Maps API.
+
+#### Edit Gems
+![edit animation](./readme/edit.gif)
+
+Users can edit gems they originally posted.
+
+#### Filter Gems
+![filter animation](./readme/filter.gif)
+
+Users can filter gems by keywords found in title or description, by category and by rating.
+
+#### Pagination
+![pagination animation](./readme/pagination.gif)
+
+Users can view five gems at a time on each page.
+
+#### Night and Day Modes
+![Night and day animation](./readme/night-day.gif)
+
+Users can view page in night and day mode according to preference.
+
 ### What problem motivated this app
 A visitor to Atlanta will not know what unique sights/venues/etc the locals are passionate about. Plus they don't want to just wander idly around the city and get stabbed or accosted by our horde of zombies.
 
 ### Who are our users
 Visitors to the area, curious to see the highlights of the city.
 Residents of the city that want to share what makes Atlanta a GEM.
-
 
 ### Elevator pitch
 You are in Atlanta only briefly, a visit or perhaps business.  Probably because you flew in here on your way someplace better. You want to know what to see here, and you want it from people who love the city, not some commercial crap.
