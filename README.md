@@ -1,13 +1,9 @@
-=======
 # Atlanta GEMS (developed under codename: Order 66)
----
 
 ## Live Demo
----
 [Atlanta GEMS](https://www.iangornall.com/ExecutiveOrder66)
 
 ## Contents
----
   * Description
   * Technologies
   * Challenges and Solutions
@@ -16,7 +12,6 @@
   * Authors
 
 ## Description
----
 
 This project is a front end interface to accept a post (a gem) from a user. The gems are stored in firebase, and retrieved and displayed by to the visitor.
 
@@ -42,14 +37,12 @@ Residents of the city that want to share what makes Atlanta a GEM.
 You are in Atlanta only briefly, a visit or perhaps business.  Probably because you flew in here on your way someplace better. You want to know what to see here, and you want it from people who love the city, not some commercial crap.
 
 ## Technologies
----
   * HTML, CSS, JavaScript
   * Google Firebase Database and FireAuth
   * Google Custom Search API
   * Google Maps API
 
 ## Challenges and Solutions
----
 This was our first group project.  Adapting to using git for collaboration was the major challenge for us.
 
   * Challenge #1: JavaScript and CSS selectors:
@@ -73,7 +66,6 @@ This was our first group project.  Adapting to using git for collaboration was t
   Firebase was new to every team member.  Reading through the documentation and implementing both the database and authentication were challenging.  Also, setting security rules so that only valid data could enter the server took many tries.
 
 ## MVP (Minimum Viable Product)
----
 Considering this was intended to be a front-end only project, we were ambitious in making a serverless web app with a database running in the cloud.
 
 Our initial MVP included:
@@ -82,7 +74,6 @@ Our initial MVP included:
 * Able to view gems retrieved from database
 
 ## Our Stretch Goals
----
 Once we had our MVP, we realized a number of additional goals:
 * Authenticating users
 * Users able to edit and delete their own posts
@@ -99,7 +90,6 @@ If we had more time we would have...
 * Check out the site load in Lighthouse and in the Network panel.  Apply fixes.
 
 ## Authors
----
   * [Ian Gornall](https://github.com/iangornall/)
   * [Matthew Marberry](https://github.com/marberrym)
   * [Nathan Reese](https://github.com/somelinuxguy)
